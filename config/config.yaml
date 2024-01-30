@@ -5,3 +5,8 @@ data_ingestion:
   source_URL: https://drive.google.com/file/d/1NWmAABcK2h_frR9ZEcJqeRSnbSCvr1in/view?usp=sharing
   local_data_file: artifacts/data_ingestion/mrnet-v1.zip
   unzip_dir: artifacts/data_ingestion
+
+
+training:
+  root_dir: artifacts/training
+  model_path: artifacts/training/knee_mri_model.h5
